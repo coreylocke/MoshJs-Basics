@@ -131,13 +131,22 @@
         //Under person object in object literal name is the key then colon:
         //after we set the value to string 'Mosh' then comma, and another
         //key value pair. Add another key value pair at age 30
+//
+//result object {Name:'Mosh', age: 30}
 
-let person = {
-    name: 'Mosh'
-    age: 30
-};
+        // //dot notation
+         //person.name = 'John';
+        //
+        // console.log(person.name)
+        // //result John
+        //
+        // //bracket notation
+        //  person ['name'] = 'Mary'
+        //  console.log(person.name); //result Mary
 
+        let selection = 'name';
+        person[selection] = 'Mary';
 
-
+        console.log(person.name);
 
 
