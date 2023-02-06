@@ -144,9 +144,53 @@
         //  person ['name'] = 'Mary'
         //  console.log(person.name); //result Mary
 
-        let selection = 'name';
-        person[selection] = 'Mary';
+        // let selection = 'name';
+        // person[selection] = 'Mary';
+        //
+        // console.log(person.name); //result Mary
 
-        console.log(person.name);
+
+//Arrays
+        //declare a variable called selectedColors
+        //square brackets array literal[]
+        //initialize this with = and make value an empty array []
+
+        //let selectedColors = [];
+
+//can initialize this with a couple items like red, blue.
+        //let selectedColors = ['red', 'blue'];
+//let's log this on the console
+        //console.log(selectedColors);
+        //returns proto:array with 2 elements indexed 0:red 1:blue
+        //use array index to access 0 for red and 1 for blue.
+
+        //let selectedColors = ['red', 'blue'];
+        //console.log(selectedColors[0]); //returns red
+
+        //JS can also dynamically change array to make shorter or longer, add
+        //values or subtract etc..
+
+        //let selectedColors = ['red', 'blue'];
+        //selectedColors[2] = 'green';
+        //console.log(selectedColors); //result red, blue, green. objects in arrays
+        //are dynamic.
+
+        // let selectedColors = ['red', 'blue'];
+        // selectedColors[2] = 1;
+        // console.log(selectedColors); //result red, blue, 1
+
+        //objects of the array and size are dynamic. technically an array is
+        // an object. Like the person object earlier it has a bunch of key value
+        //pairs you can access through dot notation.
+
+        let selectedColors = ['red', 'blue'];
+        selectedColors[2] = 1;
+        console.log(selectedColors.length);
+
+
+
+
+
+
 
 
