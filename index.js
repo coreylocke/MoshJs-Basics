@@ -183,9 +183,134 @@
         // an object. Like the person object earlier it has a bunch of key value
         //pairs you can access through dot notation.
 
-        let selectedColors = ['red', 'blue'];
-        selectedColors[2] = 1;
-        console.log(selectedColors.length);
+        // let selectedColors = ['red', 'blue'];
+        // selectedColors[2] = 1;
+        // console.log(selectedColors.length);
+
+        //An array is a data structure we use to represent a list of items.
+        // The .length property. This property returns
+        //a number of items or elements in an array. All kinds of operations can be
+        //performed on arrays.
+
+// Functions: Are one of the fundamental building blocks in JS. It's basically
+        //a set of statements that performs a task or calulates a value.
+//declare a function named 'greet. Then add parenthesis (), that's part of the
+        //syntax for declaring functions. Then curly braces {}. Inside the curly
+        //braces is referred to as the body of the function. This is where we add
+        //all the statements to define some kind of logic in our application.
+        //The logic for this function is to display this message on the console.
+//This is a function declaration so no need to have semi colon after the curly
+        //braces.
+       // function greet() {
+       //   console.log('Hello World');
+        //}
+
+        //Call the function like this.
+        //greet();
+
+//Functions can have inputs. These inputs can change how the function behaves.
+        //Instead of displaying 'Hello World' display the name of a person.
+        //like Hello Jon. We can add a variable in between the () parenthesis.
+        // This greet function has one parameter called name, name is like a
+        //variable that is only meaningful inside this function. Inside the
+        //function we can work with the name variable, but it won't be accessible
+        //outside the function. Name is an input to this function. Display
+        //this function with 'Hello' and + to concatenate two strings.
+
+       // function greet(name) {
+        //    console.log('Hello ' + name);
+       // }
+//When calling the greet function, we need to pass a value for the name variable.
+        //or name parameter more accurately. So we can pass John here as an
+        //argument. John is an argument to the greet function. name is a
+        //parameter of the greet function. One of those thing's a lot of programmers
+        //don't know. They don't know the difference between a parameter and an
+        //argument. A parameter is what we have here at the time of declaration,
+        //but the argument is the actual value of supply for that parameter.
+
+        //greet('John');
+
+
+//We can reuse this function with a different input. A function can have multiple
+        // parameters. We can separate them using a comma,. Let's set another
+        //parameter lastName. When calling argument for the lastName we'll see
+        //what happens if we don't
+
+        // function greet(name, lastName) {
+        //   console.log('Hello ' + name + ' ' + lastName);
+        // }
+        //
+        // greet('John', 'Smith');
+
+//types of function's
+
+//performing a task
+//         function greet(name, lastName) {
+//             console.log('Hello ' + name + ' ' + lastName);
+//         }
+//
+//         greet('John', 'Smith');
+
+
+        //Calculates a value
+        //Call a function, name the function square, our function square will
+        //take this parameter called number, now we need to calculate the square
+        //of that number. Which is number * number. Then return this value to
+        //whatever is calling that function. For that we use the return keyword
+        //
+
+        // function square(number) {
+        //     return number * number;
+        // };
+        //Instead of calling the greet function we call the square function
+        //So square we pass 2 and that returns a value. We can use that value to
+        //initialize a varaible.
+        //  square(2);
+        //We can declare another variable called number and set it to the square
+        // of 2.
+        // function square(number) {
+        //     return number * number;
+        // };
+        // let number = square(2);
+        // console.log(square(2));
+
+//then we can display that on the console. Save changes, returns 4.
+        //we don't really need to declare a second variable let number = if all we
+        //want to do is display the square of 2 on the console. We can exclude
+        //and console.log to return result. The JS engine will call this funtion
+        // (square(2)) and get the value, then pass the value to console.log
+        //Returns 4
+
+        function square(number) {
+            return number * number;
+        };
+
+        console.log(square(2));
+
+        //How many funtions in above code? 1. square function 2.console.log
+        //technally a function call since it has parenthesis () where you can
+        //pass arguments like a string or expression. That expression can be
+        // a call to another function like (square(2).
+        //A function is a set of statements that performs a task or calculates
+        //a value.
+        //A real world usage for a funtion is to have hundreds or thousands
+        //of functions working together to provide the funcionality of that apllication.
+
+//Javascript operators: We use operator along with variables and constants to
+        //create expression. With Expressions we can implement logic and algorythms.
+        //Operators in JS:Arithmetic, Assignment, Comparison, logical, and
+        //bitwise operators.
+//Arithmetic operators: used to perform mathematics
+
+        let x = 10;
+        let y = 3;
+        console.log(x + y);
+
+        //(x + y) is an expression in JS. Expression is something that produces
+        //a value. +, -, *, / (division), % (remainder)
+
+
+
 
 
 
