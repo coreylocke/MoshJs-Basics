@@ -281,11 +281,11 @@
         // (square(2)) and get the value, then pass the value to console.log
         //Returns 4
 
-        function square(number) {
-            return number * number;
-        };
-
-        console.log(square(2));
+        // function square(number) {
+        //     return number * number;
+        // };
+        //
+        // console.log(square(2));
 
         //How many funtions in above code? 1. square function 2.console.log
         //technally a function call since it has parenthesis () where you can
@@ -302,13 +302,112 @@
         //bitwise operators.
 //Arithmetic operators: used to perform mathematics
 
-        let x = 10;
-        let y = 3;
-        console.log(x + y);
+        // let x = 10;
+        // let y = 3;
+        // console.log(x + y);
 
         //(x + y) is an expression in JS. Expression is something that produces
-        //a value. +, -, *, / (division), % (remainder)
+//avalue. +, -, *, /(division), %(remainder), **(exponentiation) x to power of y.
+        //are arithmetic operators
+        // console.log(x + y); //addition
+        // console.log(x - y); //subtraction
+        // console.log(x * y); //multiplication
+        // console.log(x / y); //division
+        // console.log(x % y); //% remainder
+        // console.log(x ** y); //** exponentiation x to the power of y
+        // console.log(++); //Increment and decrement
+        //
+        //console.log(++x)
+//put increment operator before x will add 1 to x returning the value of 11
+        //  on console.
 
+        //console.log(x++);
+//in contrast if put this operator ++ after x it will return 10. It will log
+        // x then display x only incrementing plus 1 after the display prints
+        //we can add another console.log to verify
+       // console.log(x);
+
+        //returns 11 meaning the increment of 1 ++ was added after displaying
+        //the log on the console.
+
+//Decrement (--):
+        //console.log(--x);
+        //return 9. We're decrementing the value of x by 1 and displaying it on
+        //the console.
+
+//Assignment operators:
+        //Using assignment operator = to assign 10 to x
+        // let x = 10;
+        //
+        // // x++; //same as
+        // // x = x + 1; //take value of x add 1 to it use
+        // // // assignment operator = assign new value of x. x = 11 now.
+        // //
+        // // //if we want to add 5 increment operator will not work. How can we do
+        // // //that.
+        // //
+        // // x = x + 5; //but there's a simpler way to use shorthand addition.
+        // // //We can use the addition asignment operator like this.
+        // // x += 5;
+        //
+        // //Multiply value of x by 3
+        // x = x * 3;
+        // x *= 3; // multipliation assignment operator *=
+
+//Comparison Operators: Compare value of a variable with something else. 2 types
+        //of comparison operators. 1. Relational operator 2. Equality Operator
+        //here we have x set to a value of 1.
+//         let x = 1
+// //check if x is greater than 0.
+//         console.log(x > 0); //returns true. The result of an expression that
+//         //includes a comparison operator is a boolean it's true or false.
+//
+//         console.log(x >= 1); //returns true. greater than or equal to >=
+//         console.log(x < 1); //returns false. less than
+//         console.log(x <= 1); //returns trues. less than or equal to <=
+//         //These above are Relational Operators
+//
+//         //These below are Equality Operators
+//         console.log(x === 1); //returns true. equal to === type, value
+//         console.log(x !== 1); //returns false. Not equal to x not same type
+//         // and value as 1
+
+//Equality operators:
+        //=== Strict equality operator same value and type
+        //== lose equality operator. Doesn't care about types matching, if theyre
+        //not matching it will conver the right side to match the left side and
+        //then it will only check if the values are equal.
+
+// console.log(1 === 1); //return true. Strict equality operator
+//console.log(1 == 1); //return true. Lose equality operator
+//
+//         console.log('1' === 1); //returns false. String 1 not same type or value
+//         // as number 1.
+//
+//         console.log('1' == 1); //returns true.
+//         //In this case ==operator looks at the value on the left side. Here
+//         //we have a string'' of '1'. b/c ==operator will change right side number
+//         //to string'' of '1' to match value.
+//
+//         console.log(1 == 1); //returns true
+//
+//         console.log(true == 1);//returns true. It's matching left side to right side.
+//Best practice is to use strict equality since it's more accurate.
+
+//Ternary Operator or Conditional Operator:
+        //Problem::: If a customer has over 100 points;
+        //they are a 'gold' customer, otherwise;
+        //they are a 'silver' customer.
+
+        //Start by declaring a variable keeping track of number of points.
+
+        let points = 110;
+
+//add a variable to declare type of customer gold, silver.
+
+        //declare variable called type to represent the type of customer,
+        // then use the ternary operator
+        let type = points > 100;
 
 
 
