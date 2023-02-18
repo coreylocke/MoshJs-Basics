@@ -400,14 +400,35 @@
         //they are a 'silver' customer.
 
         //Start by declaring a variable keeping track of number of points.
+//
+//         let points = 110;
+//
+// //add a variable to declare type of customer gold, silver.
+//
+//         //declare variable called type to represent the type of customer,
+//         // then use the ternary operator
+//         let type = points > 100;
+//
+//         function century(year) {
+//
+//                 if (year >= 1601 && year <= 1700) {
+//                         return 17;
+//                 } else if (year >= 1701 && year <= 1800) {
+//                         return 18;
+//                 } else if (year >= 1801 && year <= 1900) {
+//
+//                 return 19;
+//                 }
+//                   else if(year >=1901 && year <=2000) {
+//                           return 20;
+//                 }
+//         }
+//
+//         console.log(century(1705));
+//         console.log(century(1900));
+//         console.log(century(1601));
+//         console.log(century(2000));
 
-        let points = 110;
-
-//add a variable to declare type of customer gold, silver.
-
-        //declare variable called type to represent the type of customer,
-        // then use the ternary operator
-        let type = points > 100;
 
 
 
