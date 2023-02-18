@@ -1,3 +1,6 @@
-let interestRate = 0.3;
-interestRate = 1;
-console.log(interestRate)
+
+let name = 'Corey';
+let age = 43
+let isApproved = true;
+let firstName = undefined;
+let lastName = null;
