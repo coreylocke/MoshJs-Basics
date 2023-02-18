@@ -3,4 +3,12 @@ let person = {
   name: 'Mosh',
   age: 30
 };
-console.log(person)
+
+// Dot Notation
+person.name = 'John'
+
+// Bracket Notation
+let selection = 'name';
+person[selection] = 'Mary';
+
+console.log(person.name)
